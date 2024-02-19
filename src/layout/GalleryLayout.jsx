@@ -92,7 +92,8 @@ export const GalleryLayout = () => {
               <Image
                 key={index}
                 cursor={"pointer"}
-                w={"100%"}
+                w={"24vw"}
+                h={"100%"}
                 onClick={() => {
                   setSelecetedItem(item), onOpen();
                 }}
