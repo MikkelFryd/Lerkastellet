@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <footer
       style={{
-        backgroundColor: "beige",
+        backgroundColor: "#CBB9B1",
         color: "black",
         display: "grid",
         justifyItems: "center",

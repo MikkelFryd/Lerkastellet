@@ -5,7 +5,7 @@ export const NavBar = () => {
     <nav
       style={{
         position: "sticky",
-        backgroundColor: "beige",
+        backgroundColor: "#CBB9B1",
         opacity: ".8",
         top: "0",
         left: "0",

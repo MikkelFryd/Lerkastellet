@@ -1,5 +1,5 @@
 import { Heading } from "@chakra-ui/react";
-import bg from "../assets/images/ceramics.jpg";
+import bg from "../assets/images/ceramics.webp";
 
 export const Header = () => {
   return (
@@ -23,6 +23,7 @@ export const Header = () => {
           backgroundSize: "cover",
           filter: "blur(3px)",
           zIndex: "-1",
+          top: "0"
         }}
       />
     </header>

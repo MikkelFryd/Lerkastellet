@@ -59,12 +59,13 @@ export const ContactLayout = () => {
       w={"100%"}
       maxW="100vw"
       minH={"40vh"}
-      bg="grey"
+      bg="#75655f"
       color="white"
     >
       <Heading
         fontSize={{ base: "24px", md: "40px", lg: "56px" }}
         p={"1em"}
+        fontWeight={"300"}
         as={"h2"}
         color="white"
       >
@@ -126,7 +127,7 @@ export const ContactLayout = () => {
             </FormLabel>
             <Button
               fontSize={{ base: "12px", md: "40px", lg: "18px" }}
-              w={"10%"}
+              maxW="25%"
               type="submit"
               isLoading={isSubmitting}
               value="SEND"

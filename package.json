@@ -13,6 +13,8 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
+    "@fontsource-variable/playfair-display": "^5.0.21",
+    "@fontsource/katibeh": "^5.0.18",
     "@tanstack/react-query": "^5.18.1",
     "framer-motion": "^11.0.3",
     "graphql": "^16.8.1",

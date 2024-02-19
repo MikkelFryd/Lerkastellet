@@ -8,16 +8,16 @@ import { SkipNavContent } from "@chakra-ui/skip-nav";
 
 export const MainLayout = () => {
   return (
-    <>
+    <div style={{backgroundColor: "#CBB9B1", zIndex: "0", position: "relative"}}>
       <NavBar />
       <Header />
-      <main style={{ width: "90%", margin: "auto" }}>
+      <main style={{ width: "80%", margin: "auto", boxShadow: "0px 8px 8px 2px black" }}>
         <SkipNavContent />
         <WelcomeLayout />
         <GalleryLayout />
         <ContactLayout />
       </main>
       <Footer />
-    </>
+    </div>
   );
 };

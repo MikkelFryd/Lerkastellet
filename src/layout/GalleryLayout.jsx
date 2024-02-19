@@ -2,7 +2,6 @@ import {
   Container,
   Button,
   SimpleGrid,
-  Box,
   Image,
   Spinner,
   useDisclosure,
@@ -22,7 +21,7 @@ export const GalleryLayout = () => {
   const [selectedItem, setSelecetedItem] = useState("");
   const theme = useTheme();
 
-  console.log(theme);
+  console.log(theme.fontFamily);
 
   const catQuery = useQuery({
     queryKey: ["getCategories"],
@@ -42,9 +41,10 @@ export const GalleryLayout = () => {
     return catSet.map((item, index) => {
       return (
         <Button
-          fontSize={{ base: "10px", md: "40px", lg: "18px" }}
+          fontSize={["sm", "md", "lg", "xl"]}
           w={"100%"}
           p={"1em"}
+          color={"white"}
           colorScheme="gray"
           variant="outline"
           key={index}
@@ -65,16 +65,19 @@ export const GalleryLayout = () => {
   }
 
   return (
-    <Container id="gallery" maxW="100vw" minH="80vh" bg="grey" color="white">
+    <Container id="gallery" maxW="100vw" minH="80vh" bg="#75655f" color="white">
       <Heading
         p={"1em"}
         fontSize={{ base: "24px", md: "40px", lg: "56px" }}
         as={"h2"}
+        fontFamily={theme.fonts.heading}
+        fontWeight={"300"}
       >
         GALLERI
       </Heading>
       <SimpleGrid
-        spacing={1}
+        minChildWidth="5em"
+        spacing={4}
         columns={6}
         alignItems={"center"}
         paddingBottom={"2em"}
@@ -83,11 +86,11 @@ export const GalleryLayout = () => {
           ? cleanArr(catQuery.data.productCollection.items)
           : null}
       </SimpleGrid>
-      <SimpleGrid columns={4} spacing={5} justifyItems={"center"}>
+      <SimpleGrid minChildWidth="6em" spacing={5} justifyItems={"center"}>
         {data.productCollection.items.map((item, index) => {
           return (
-            <Box key={index}>
               <Image
+                key={index}
                 cursor={"pointer"}
                 w={"100%"}
                 onClick={() => {
@@ -96,7 +99,6 @@ export const GalleryLayout = () => {
                 src={item.image.url}
                 alt={item.title}
               />
-            </Box>
           );
         })}
       </SimpleGrid>

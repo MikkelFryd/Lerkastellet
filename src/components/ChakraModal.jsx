@@ -26,7 +26,7 @@ export const ChakraModal = (props) => {
         isCentered
       >
         <ModalOverlay bg="none" backdropFilter="auto" backdropBlur="2px" />
-        <ModalContent>
+        <ModalContent  backgroundColor={"#CBB9B1"}>
           <ModalHeader>{props.selectedItem.title}</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
