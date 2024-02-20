@@ -43,7 +43,7 @@ export const GalleryLayout = () => {
         <Button
           fontSize={["sm", "md", "lg", "xl"]}
           w={"100%"}
-          fontStyle={"300"}
+          fontWeight={"300"}
           p={"1em"}
           color={"white"}
           colorScheme="gray"
