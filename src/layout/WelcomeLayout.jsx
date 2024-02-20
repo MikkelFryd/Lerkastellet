@@ -19,6 +19,7 @@ export const WelcomeLayout = () => {
         borderInlineStart={"none"}
         p={"2em"}
         display={"grid"}
+        gap={"1em"}
         gridTemplateColumns={"1fr 1fr"}
       >
         <Text fontSize={{ base: "12px", md: "20px", lg: "24px" }}>
