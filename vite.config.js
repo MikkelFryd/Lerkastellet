@@ -13,7 +13,7 @@ const manifestForPlugIn = {
       src: '../public/newLogo.svg',
       sizes:'192x192',
       type:'image/svg',
-      purpose:'favicon'
+      purpose:'favicon any'
     },
     {
       src: '../public/newLogo.svg',
@@ -25,13 +25,13 @@ const manifestForPlugIn = {
       src:'../public/newLogo.svg',
       sizes:'512x512',
       type:'image/svg',
-      purpose:'favicon'
+      purpose:'favicon any'
     },
     {
       src: '../public/newLogo.svg',
       sizes:'180x180',
       type:'image/svg',
-      purpose:'apple touch icon',
+      purpose:'apple touch icon any',
     },
     {
       src: '../public/newLogo.svg',
