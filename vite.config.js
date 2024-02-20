@@ -16,6 +16,12 @@ const manifestForPlugIn = {
       purpose:'favicon'
     },
     {
+      src: '../public/newLogo.svg',
+      sizes:'144x144',
+      type:'image/png',
+      purpose:'any'
+    },
+    {
       src:'../public/newLogo.svg',
       sizes:'512x512',
       type:'image/png',
