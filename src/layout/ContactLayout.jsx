@@ -76,7 +76,7 @@ export const ContactLayout = () => {
       )}
       <div style={{ width: "80%", margin: "auto" }}>
         <form
-          style={{ width: "60vw", height: "80vh", margin: "auto" }}
+          style={{ height: "80vh", margin: "auto" }}
           onSubmit={handleSubmit(onSubmit)}
         >
           <FormControl
@@ -127,10 +127,13 @@ export const ContactLayout = () => {
             </FormLabel>
             <Button
               fontSize={{ base: "12px", md: "40px", lg: "18px" }}
-              maxW="25%"
+              width={"8em"}
               type="submit"
               isLoading={isSubmitting}
               value="SEND"
+              fontWeight={"300"}
+              color={"white"}
+              variant={"outline"}
             >
               SEND
             </Button>

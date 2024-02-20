@@ -5,7 +5,7 @@ import '@fontsource-variable/playfair-display';
 const theme = extendTheme({
   fonts: {
     heading: `'Katibeh', system-ui`,
-    body: `'Playfair Display', sans-serif`,
+    body: `'Playfair Display Variable', sans-serif`,
   },
 })
 

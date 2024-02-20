@@ -35,10 +35,10 @@ export const ChakraModal = (props) => {
           <ModalFooter>
             <HStack spacing={"2rem"}>
               <Text fontSize={{ base: "12px", md: "40px", lg: "24px" }}>
-                BREDDE: {props.selectedItem.width}cm
+                Bredde: {props.selectedItem.width}cm
               </Text>
               <Text fontSize={{ base: "12px", md: "40px", lg: "24px" }}>
-                HØJDE: {props.selectedItem.height}cm
+                Højde: {props.selectedItem.height}cm
               </Text>
             </HStack>
           </ModalFooter>

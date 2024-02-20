@@ -16,8 +16,7 @@ export const Header = () => {
         style={{
           position: "absolute",
           width: "100%",
-          height: "60vh",
-          margin: "auto",
+          height: "100%",
           backgroundImage: "url(" + bg + ")",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
