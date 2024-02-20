@@ -2,7 +2,7 @@ import { Box, Container, Heading, Text, } from "@chakra-ui/react";
 
 export const WelcomeLayout = () => {
   return (
-    <Container id="welcome" h={"80vh"} minH="80vh" width={"100%"} maxWidth={"100vw"} bg="#75655f" color="white">
+    <Container id="welcome" h={"80vh"} minH="80vh" width={"100%"} maxWidth={"100vw"} bg="#75655f" color="white" paddingBottom={"2em"}>
       <Heading
         fontSize={{ base: "24px", md: "40px", lg: "56px" }}
         as="h2"
