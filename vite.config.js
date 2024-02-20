@@ -12,31 +12,31 @@ const manifestForPlugIn = {
     icons:[{
       src: '../public/newLogo.svg',
       sizes:'192x192',
-      type:'image/png',
+      type:'image/svg',
       purpose:'favicon'
     },
     {
       src: '../public/newLogo.svg',
       sizes:'144x144',
-      type:'image/png',
+      type:'image/svg',
       purpose:'any'
     },
     {
       src:'../public/newLogo.svg',
       sizes:'512x512',
-      type:'image/png',
+      type:'image/svg',
       purpose:'favicon'
     },
     {
       src: '../public/newLogo.svg',
       sizes:'180x180',
-      type:'image/png',
+      type:'image/svg',
       purpose:'apple touch icon',
     },
     {
       src: '../public/newLogo.svg',
       sizes:'512x512',
-      type:'image/png',
+      type:'image/svg',
       purpose:'any maskable',
     }
   ],
